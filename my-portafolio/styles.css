@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+}
+
+header {
+  background-color: #ffca28;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+header p {
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #ff6b6b;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project h3 {
+  color: #ff6b6b;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+.project img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #81d4fa;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #4fc3f7;
+}
+
+.skill {
+  margin: 20px 0;
+}
+
+.progress {
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #ff6b6b;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffca28;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+}

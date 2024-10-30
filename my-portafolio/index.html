@@ -1,15 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script type="module" src="/main.js"></script>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio de Erik Portillo</title>
+</head>
+<body>
+    <header>
+        <h1>Erik Portillo</h1>
+        <p>Desarrollador de Software | Estudiante de DAW</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Soy un ingeniero de software con experiencia en proyectos web y aplicaciones. Me apasiona crear soluciones digitales efectivas.</p>
+    </section>
+    
+    <section id="projects">
+      <h2>Proyectos Destacados</h2>
+      <div class="project">
+          <h3><a href="https://example.com/clima-app">🌤️ Clima App</a></h3>
+          <img src="/my-portafolio/public/icons/weather.jpeg" alt="Captura de Clima App">
+          <p><strong>Descripción:</strong> Una aplicación web que proporciona información meteorológica en tiempo real. Los usuarios pueden buscar cualquier ciudad del mundo y obtener detalles como la temperatura, la humedad y el pronóstico para los próximos días.</p>
+          <p><strong>Tecnologías:</strong> HTML, CSS, JavaScript, API de OpenWeatherMap</p>
+          <a href="https://example.com/clima-app" class="button">Ver Proyecto</a>
+      </div>
+      
+      <div class="project">
+        <h3><a href="https://example.com/biblioteca-virtual">📚 Biblioteca Virtual</a></h3>
+        <img src="/my-portafolio/public/icons/enlace.jpeg" alt="Captura de Biblioteca Virtual">
+        <p><strong>Descripción:</strong> Una aplicación web que permite a los usuarios gestionar su colección de libros. Los usuarios pueden agregar, editar y eliminar libros, así como marcar sus libros favoritos. Incluye una opción para reseñas y valoraciones de los libros.</p>
+        <p><strong>Tecnologías:</strong> React, Node.js, Express, MongoDB</p>
+        <a href="https://example.com/biblioteca-virtual" class="button">Ver Proyecto</a>
+   
+      
+      <div class="project">
+          <h3><a href="https://example.com/todo-list">📝 Todo List</a></h3>
+          <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=Todo+List" alt="Captura de Todo List">
+          <p><strong>Descripción:</strong> Una aplicación interactiva para gestionar tareas diarias. Permite a los usuarios agregar, editar y eliminar tareas, así como marcar las tareas completadas.</p>
+          <p><strong>Tecnologías:</strong> JavaScript, Local Storage, HTML, CSS</p>
+          <a href="https://example.com/todo-list" class="button">Ver Proyecto</a>
+      </div>
+
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress">
+                <div class="progress-bar" style="width: 36%;">36%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress">
+                <div class="progress-bar" style="width: 12%;">12%</div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress">
+                <div class="progress-bar" style="width: 22%;">22%</div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de <a href="mailto:erikportillo@example.com">mi correo electrónico</a>.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Erik Portillo | <a href="https://linkedin.com/in/erikportillo">LinkedIn</a> | <a href="https://twitter.com/tu_usuario">Twitter</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
